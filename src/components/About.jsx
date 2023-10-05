@@ -4,11 +4,15 @@ import vector from "../assets/Vector.svg";
 
 const About = () => {
   return (
-    <section className="my-8  grid grid-cols-2 ">
+    <section className="my-8 py-20 grid grid-cols-2 ">
       <div className="flex justify-center items-end gap-4 ">
         <img src={vector} alt="vector" className=" pb-12 " />
-        <div className="h-96 w-96 bg-red-200 flex justify-center items-center">
-          <img src={aboutImg} alt="about" className=" h-80 w-80" />
+        <div className="h-96 w-96 bg-red-100 flex justify-center items-center">
+          <img
+            src={aboutImg}
+            alt="about"
+            style={{ width: "350px", height: "350px" }}
+          />
         </div>
       </div>
       <div className="flex flex-col justify-center w-2/3 ">
@@ -17,7 +21,7 @@ const About = () => {
           <hr className=" h-0.5 w-20 bg-gray-300" />
         </div>
 
-        <Typography variant="h2" className="my-4 font-serif">
+        <Typography variant="h1" className="my-4 font-serif">
           Your Support is Really Powerful.
         </Typography>
         <Typography variant="small" className="mb-4 w-3/4">

@@ -4,7 +4,7 @@ import vector from "../assets/Vector.svg";
 
 const About = () => {
   return (
-    <section className="my-8 py-20 grid grid-cols-2 ">
+    <section id="about" className="my-8 py-20 grid grid-cols-2 ">
       <div className="flex justify-center items-end gap-4 ">
         <img src={vector} alt="vector" className=" pb-12 " />
         <div className="h-96 w-96 bg-red-100 flex justify-center items-center">

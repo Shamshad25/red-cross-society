@@ -2,7 +2,7 @@ import { Button, Typography } from "@material-tailwind/react";
 
 const Mission = () => {
   return (
-    <section className="w-full">
+    <section id="mission" className="w-full">
       <div className="flex text-center">
         <div className="bg-gray-200 w-3/5 p-10 flex justify-center">
           <div className="w-2/3">

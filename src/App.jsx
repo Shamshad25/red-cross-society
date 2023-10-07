@@ -1,7 +1,7 @@
 import About from "./components/About";
 import BloodBank from "./components/BloodBank";
 // import Border from "./components/Border";
-// import Details from "./components/Details";
+import Details from "./components/Details";
 import Difference from "./components/Difference";
 // import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -18,8 +18,8 @@ function App() {
       <Difference />
       <News />
       <BloodBank />
-      {/* <Details />
-      <Program />
+      <Details />
+      {/* <Program />
       <Border />
       <Footer /> */}
     </>

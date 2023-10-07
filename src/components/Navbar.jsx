@@ -20,14 +20,17 @@ const Navbar = () => {
           >
             What we do
           </AnchorLink>
-          <AnchorLink href="#news" className="text-white cursor-pointer z-50">
+          <AnchorLink
+            href="#bloodbank"
+            className="text-white cursor-pointer z-50"
+          >
             Get Involved
           </AnchorLink>
-          <AnchorLink href="#about" className="text-white cursor-pointer z-50">
+          <AnchorLink href="#news" className="text-white cursor-pointer z-50">
             News & Updates
           </AnchorLink>
           <AnchorLink
-            href="#bloodbank"
+            href="#program"
             className="text-white cursor-pointer z-50"
           >
             Resources

@@ -18,7 +18,7 @@ const Hero = () => {
       </div>
 
       <div className="w-full h-2/3 flex justify-center absolute mt-6">
-        <div className="w-1/2 flex justify-center items-center flex-col">
+        <div className="w-full md:w-1/2 flex justify-center items-center flex-col">
           <Typography variant="paragraph" className="text-white text-center">
             Unite, Serve, Strengthen Together
           </Typography>

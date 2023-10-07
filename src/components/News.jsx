@@ -21,14 +21,17 @@ const datas = [
 
 const News = () => {
   return (
-    <section id="news" className="py-10 grid grid-cols-2 bg-red-50">
+    <section
+      id="news"
+      className="py-10 grid grid-cols-1 md:grid-cols-2 bg-red-50"
+    >
       <div className=" flex flex-col items-end">
-        <div className="w-2/3 h-full pr-4">
+        <div className="w-full md:w-2/3 h-full pr-4">
           <div className="flex items-center gap-2">
             <Typography variant="paragraph" className="font-serif font-bold">
               News and Events
             </Typography>
-            <hr className=" h-0.5 w-20 bg-gray-300" />
+            <hr className=" h-0.5 w-20 bg-gray-500" />
           </div>
           <Typography variant="h1" className="font-serif">
             Read about us & events we’ve organized

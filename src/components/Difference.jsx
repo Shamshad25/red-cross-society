@@ -11,7 +11,7 @@ const Difference = () => {
       className="my-8 py-20 grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1"
     >
       <div className=" flex flex-col items-end">
-        <div className="w-2/3 h-full">
+        <div className="w-full md:w-2/3 h-full">
           <Typography variant="h1" className="font-serif">
             How we’re making a difference
           </Typography>

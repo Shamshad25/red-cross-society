@@ -3,9 +3,9 @@ import { Button, Typography } from "@material-tailwind/react";
 const Mission = () => {
   return (
     <section id="mission" className="w-full">
-      <div className="flex text-center">
-        <div className="bg-gray-200 w-3/5 p-10 flex justify-center">
-          <div className="w-2/3">
+      <div className="flex flex-col md:flex-row text-center">
+        <div className="bg-gray-200 w-full md:w-3/5 p-10 flex justify-center">
+          <div className="w-full md:w-2/3">
             <Typography variant="h1" className="font-serif">
               Our Mission
             </Typography>
@@ -19,8 +19,8 @@ const Mission = () => {
             </Typography>
           </div>
         </div>
-        <div className="bg-red-100 w-2/5 flex flex-col justify-center items-center">
-          <div className="w-1/2">
+        <div className="bg-red-100 w-full py-4 md:w-2/5 flex justify-center items-center">
+          <div className="w-full md:w-1/2">
             <Typography variant="h1" className="font-serif pb-2">
               Take A Pledge!
             </Typography>
@@ -30,9 +30,9 @@ const Mission = () => {
           </div>
         </div>
       </div>
-      <div className="flex text-center">
-        <div className="bg-gray-300 w-3/5 p-10 flex justify-center">
-          <div className="w-2/3">
+      <div className="flex flex-col md:flex-row text-center">
+        <div className="bg-gray-300  w-full md:w-3/5 p-10 flex justify-center">
+          <div className="w-full md:w-2/3">
             <Typography variant="h1" className="font-serif">
               Objectives & Functions
             </Typography>
@@ -46,8 +46,8 @@ const Mission = () => {
             </Typography>
           </div>
         </div>
-        <div className=" w-2/5 flex bg-red-50 flex-col justify-center items-center">
-          <div className="w-1/2">
+        <div className=" w-full py-4 md:w-2/5 flex bg-red-50 flex-col justify-center items-center">
+          <div className="w-full md:w-1/2">
             <Typography variant="h1" className="font-serif pb-2">
               Photos & Videos
             </Typography>

@@ -4,7 +4,7 @@ import play from "../assets/play.svg";
 const Program = () => {
   return (
     <section id="program" className="w-full py-20 flex justify-center">
-      <div className="w-2/3 flex flex-col items-center ">
+      <div className="w-full md:w-2/3 flex flex-col items-center ">
         <Typography variant="h1" className="capitalize font-serif">
           we also have a radio program
         </Typography>
@@ -18,7 +18,7 @@ const Program = () => {
             <Typography variant="lead">Together for Humanity</Typography>
           </div>
         </div>
-        <div className="w-full grid grid-cols-2 gap-16 py-8">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-16 py-8">
           <div className="flex justify-start items-center gap-4 ">
             <div className="bg-gray-200 text-center px-5 py-2">
               <Typography variant="paragraph" className="font-serif font-bold">

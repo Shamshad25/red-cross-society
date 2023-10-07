@@ -7,7 +7,4 @@
   h1 {
     @apply text-white;
   }
-  li {
-    @apply text-white;
-  }
 }

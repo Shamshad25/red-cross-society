@@ -1,13 +1,13 @@
 import About from "./components/About";
 import BloodBank from "./components/BloodBank";
-// import Border from "./components/Border";
+import Border from "./components/Border";
 import Details from "./components/Details";
 import Difference from "./components/Difference";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Mission from "./components/Mission";
 import News from "./components/News";
-// import Program from "./components/Program";
+import Program from "./components/Program";
 
 function App() {
   return (
@@ -19,9 +19,9 @@ function App() {
       <News />
       <BloodBank />
       <Details />
-      {/* <Program />
+      <Program />
       <Border />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }

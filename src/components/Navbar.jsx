@@ -5,7 +5,7 @@ import { FaSistrix } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <header className=" flex w-full  justify-around  items-center p-4">
+    <header className="w-full hidden sm:flex  justify-around  items-center p-4 ">
       <div>
         <img src={logo} alt="logo" />
       </div>
@@ -38,7 +38,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="flex items-center gap-2 z-30">
-        <div className="border w-8 h-8 flex justify-center items-center border-red-500">
+        <div className="border flex justify-center items-center border-red-500">
           <FaSistrix color="red" size={20} className="z-30 cursor-pointer" />
         </div>
         <Button color="red">Donate</Button>

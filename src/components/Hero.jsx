@@ -4,11 +4,14 @@ import Navbar from "./Navbar";
 
 const Hero = () => {
   return (
-    <section id="hero" className="h-screen w-full relative bg-gradient-to-tr from-red-300 to-gray-900">
+    <section
+      id="hero"
+      className="h-screen w-full  relative bg-gradient-to-tr from-red-300 to-gray-800"
+    >
       <img
         src={hero}
         alt="hero"
-        className="absolute w-full h-full object-cover mix-blend-overlay"
+        className="absolute w-full h-full sm:w-full object-cover mix-blend-overlay"
       />
       <div>
         <Navbar />

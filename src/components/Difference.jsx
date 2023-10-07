@@ -6,7 +6,10 @@ import carryImg from "../assets/la_people-carry.svg";
 
 const Difference = () => {
   return (
-    <section id="difference" className="my-8 py-20 grid grid-cols-2 ">
+    <section
+      id="difference"
+      className="my-8 py-20 grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1"
+    >
       <div className=" flex flex-col items-end">
         <div className="w-2/3 h-full">
           <Typography variant="h1" className="font-serif">

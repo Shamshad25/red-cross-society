@@ -2,7 +2,10 @@ import { Typography } from "@material-tailwind/react";
 
 const Border = () => {
   return (
-    <section id="border" className="w-full grid grid-cols-4 bg-blue-200">
+    <section
+      id="border"
+      className="w-full grid grid-cols-1 md:grid-cols-4 bg-blue-200"
+    >
       <div className="flex justify-center items-center bg-gray-100 py-12">
         <Typography variant="h2" className="w-1/2 font-serif text-center">
           Become a Volunteer

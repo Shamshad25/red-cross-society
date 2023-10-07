@@ -3,12 +3,15 @@ import dp from "../assets/image 8.png";
 
 const Details = () => {
   return (
-    <section id="details" className="flex flex-col justify-center items-center bg-red-50 py-20">
+    <section
+      id="details"
+      className="flex flex-col justify-center items-center bg-red-50 py-20"
+    >
       <Typography variant="h1" className="font-serif pb-14">
         Hear From Us
       </Typography>
-      <div className=" w-2/3 grid grid-cols-2 ">
-        <div className="flex flex-row gap-8 items-center border-r-2 border-gray-400 mr-2">
+      <div className="w-full md:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-4 divide-x-2 divide-gray-400">
+        <div className="flex flex-row gap-8 items-center">
           <div>
             <img src={dp} alt="image" />
           </div>
@@ -25,7 +28,7 @@ const Details = () => {
             </Typography>
           </div>
         </div>
-        <div className="flex flex-row gap-8 items-center">
+        <div className="flex flex-row gap-8 items-center pl-4">
           <div>
             <img src={dp} alt="image" />
           </div>

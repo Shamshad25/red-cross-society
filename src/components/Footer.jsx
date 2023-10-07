@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <React.Fragment>
       <section id="footer" className="w-full flex justify-center py-20">
-        <div className="w-4/5 flex gap-4 items-center ">
+        <div className="w-full md:w-4/5 flex flex-col md:flex-row gap-4 items-center ">
           <div className="px-6">
             <img src={logo} alt="logo" />
           </div>

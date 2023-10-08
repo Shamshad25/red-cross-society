@@ -29,7 +29,7 @@ const BloodBank = () => {
 
         <div className="grid grid-rows-1 md:grid-cols-10 gap-4 py-2">
           <div className="col-span-2 py-4 border-2 border-red-100 text-center">
-            <Typography>Prints Available</Typography>
+            <Typography>Pints Available</Typography>
           </div>
           <Typography
             variant="lead"

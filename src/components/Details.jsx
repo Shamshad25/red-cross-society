@@ -28,7 +28,7 @@ const Details = () => {
             </Typography>
           </div>
         </div>
-        <div className="flex flex-row gap-8 items-center pl-4">
+        <div className="flex flex-row gap-8 items-center pl-4 sm:pl-0">
           <div>
             <img src={dp} alt="image" />
           </div>

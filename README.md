@@ -8,7 +8,7 @@ The app is built with the mindset of user attractiveness and clean UI that would
 
 ### Live App link
 
-To visit the website click here:- https://shamshad.netlify.app/
+To visit the website click here:- https://red-cross-society.netlify.app
 
 
 ### Dependencies
